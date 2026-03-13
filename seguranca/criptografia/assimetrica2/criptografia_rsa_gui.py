@@ -1,7 +1,9 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
-from Crypto.PublicKey import RSA
-from Crypto.Cipher import PKCS1_OAEP
+
+#Instalar com python -m pip install pycryptodomex --force-reinstall
+from Cryptodome.PublicKey import RSA
+from Cryptodome.Cipher import PKCS1_OAEP
 
 # -------------------------
 # Gerar chaves RSA
